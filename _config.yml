@@ -26,11 +26,11 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
+  name: Igor Shymko
+  avatar: avatar.jpg
   bio: "Describe your self."
-  email:
-  disqus-shortname:
+  email: igor.shimko@gmail.com
+  disqus-shortname: ishymco
   twitter: #username
   facebook: #username
   google:
@@ -40,12 +40,12 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: ancane
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: igorshymko
   xing: #username
   instagram: #username
-  lastfm: #username
+  lastfm: wisemedic
   tumblr: #username
   pinterest: #username
   foursquare: #username
