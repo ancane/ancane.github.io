@@ -6,3 +6,12 @@
 
 _site
 .sass-cache
+
+# Emacs
+*~
+*#
+.#*
+.ensime
+.ensime_cache
+TAGS
+.dir-locals.el
