@@ -6,7 +6,7 @@ tags: [sample post, link post]
 link: http://mademistakes.com
 share: true
 image:
-  feature: stripes/blurred_backgrounds_3.jpg
+  feature: blur4.jpg
 ---
 
 This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.

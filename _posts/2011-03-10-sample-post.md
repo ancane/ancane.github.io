@@ -6,7 +6,7 @@ modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
 image:
-  feature: 2/wood1.jpg
+  feature: wood1.jpg
 ---
 
 <section id="table-of-contents" class="toc">
