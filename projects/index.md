@@ -3,7 +3,7 @@ layout: page
 title: Projects
 excerpt: "A List of Projects"
 image:
-  feature: patter1.jpg
+  feature: bg-41.jpg
 ---
 
 * [HALdr]({{ site.url }}/projects/haldr.html)
