@@ -8,3 +8,4 @@ image:
 
 * [HALdr]({{ site.url }}/projects/haldr.html)
 * [Markdown preview mode]({{ site.url }}/projects/markdown-preview-mode.html)
+* [Scala outline popup]({{ site.url }}/projects/scala-outline-popup.html)
