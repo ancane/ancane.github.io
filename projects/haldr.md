@@ -19,6 +19,8 @@ Cross-built for Scala 2.10 and 2.11
 {% highlight scala %}
 libraryDependencies += "com.github.ancane" % "haldr" % "0.1"
 
+import spray.json._
+import DefaultJsonProtocol._
 import haldr._
 {% endhighlight %}
 
