@@ -5,4 +5,3 @@ excerpt: "A List of Posts"
 image:
   feature: blur3.jpg
 ---
-

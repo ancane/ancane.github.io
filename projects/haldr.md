@@ -17,10 +17,11 @@ HAL resource representations builder for spray-json
 Cross-built for Scala 2.10 and 2.11
 
 {% highlight scala %}
-libraryDependencies += "com.github.ancane" % "haldr" % "0.1"
+libraryDependencies += "com.github.ancane" % "haldr" % "0.3"
 
 import spray.json._
 import DefaultJsonProtocol._
+import spray.httpx.SprayJsonSupport._
 import haldr._
 {% endhighlight %}
 
