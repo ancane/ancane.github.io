@@ -1,11 +1,7 @@
 ---
-layout: page
-title: Projects
-excerpt: "A List of Projects"
+layout: project-index
+title: All Projects
+excerpt: "Project list"
 image:
   feature: bg-41.jpg
 ---
-
-* [HALdr]({{ site.url }}/projects/haldr.html)
-* [Markdown preview mode]({{ site.url }}/projects/markdown-preview-mode.html)
-* [Scala outline popup]({{ site.url }}/projects/scala-outline-popup.html)

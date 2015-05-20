@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Alfa Lomonosov personal blog"
+tags: [blog, alfa, lomonosov]
 image:
   feature: bg-3.jpg
 ---

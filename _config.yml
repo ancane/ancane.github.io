@@ -16,6 +16,13 @@ sass:
 gems:
   - jekyll-sitemap
 
+collections:
+- projects
+
+collections:
+  projects:
+    output: true
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -52,7 +59,7 @@ owner:
   steam: #username
   dribbble: #username
   youtube: #username
-  soundcloud: #username
+  soundcloud: igor-shimko
   weibo: #username
   flickr: #username
 
