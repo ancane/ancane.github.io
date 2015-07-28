@@ -28,6 +28,10 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
+{% if page.fork %}
+  <a class="ribbon" href="{{ page.fork.href }}">Fork me on Github</a>
+{% endif %}
+
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
@@ -53,7 +57,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}          
+{% include _scripts.html %}
 
 </body>
 </html>
