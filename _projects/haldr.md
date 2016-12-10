@@ -10,8 +10,6 @@ image:
   feature: blur1.jpg
 ---
 
-{% include _toc.html %}
-
 HAL resource representations builder for spray-json
 
 ## Usage ##

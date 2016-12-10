@@ -8,9 +8,6 @@ image:
   feature: blur4.jpg
 ---
 
-{% include _toc.html %}
-
-
 # hashids.scala
 
 A Scala port of [hashids.js](https://github.com/ivanakimov/hashids.js) library to generate short hashes from one or many numbers. Ported from [hashids.java by fanweixiao](https://github.com/jiecao-fm/hashids-java)

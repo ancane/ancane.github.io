@@ -8,8 +8,6 @@ image:
   feature: blur2.jpg
 ---
 
-{% include _toc.html %}
-
 ## Description
 Opens a preview in a browser, updated upon buffer save.
 Same preview window is valid across multiple markdown buffers.

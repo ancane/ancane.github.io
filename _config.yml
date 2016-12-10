@@ -35,3 +35,10 @@ disqus_shortname: 'ishymco'
 markdown: kramdown
 
 highlighter: rogue
+
+collections:
+- projects
+
+collections:
+  projects:
+    output: true
