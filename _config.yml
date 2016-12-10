@@ -1,67 +1,37 @@
-# Site wide configuration
+# Site settings
+title: igors
+email: igor.shimko@gmail.com
+description: Igor Shymko (ancane) personal blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ishym.co"
 
-title:            ishym.co
-locale:           en_US
-url:
+twitter_username: stoneshaper
+github_username: ancane
+google_play:
+google_plus_com:   # Community link
+google_plus_per:   #Personal link
+facebook_app_id:
 
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
 
-# Jekyll configuration
+more_vert:
+  option1:
+    name: Cool Option 1
+    link: www.myawesomelink.com
+  option2:
+    name: Cool Option 2
+    link: www.myawesomelink.com
+  option3:
+    name: Cool Option 3
+    link: www.myawesomelink.com
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
+disqus: true
+disqus_shortname: 'ishymco'
 
-collections:
-- projects
+# Build settings
+markdown: kramdown
 
-collections:
-  projects:
-    output: true
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-
-# Site owner
-owner:
-  name: Igor Shymko
-  avatar: avatar.jpg
-  bio: ""
-  email: igor.shimko@gmail.com
-  disqus-shortname: ishymco
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: ancane
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: igorshymko
-  xing: #username
-  instagram: #username
-  lastfm: wisemedic
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: igor-shimko
-  weibo: #username
-  flickr: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+highlighter: rogue
