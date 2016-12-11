@@ -3,7 +3,7 @@ layout: page
 title: Hashids for scala
 comments: true
 tags: [scala, hashids]
-image: /img/blur4.jpg
+image: blur4.jpg
 
 ---
 

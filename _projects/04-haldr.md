@@ -3,9 +3,8 @@ layout: page
 title: HALdr
 comments: true
 tags: [HAL, spray, json]
-fork:
-  href: https://github.com/ancane/haldr
-image: /img/avatar.jpg
+image: avatar.jpg
+
 ---
 		
 HAL resource representations builder for spray-json

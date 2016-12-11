@@ -3,7 +3,7 @@ layout: page
 title: Scala outline popup
 comments: true
 tags: [scala, outline, overview]
-image: /img/blur3.jpg
+image: blur3.jpg
 
 ---
 

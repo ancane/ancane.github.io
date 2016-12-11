@@ -1,9 +1,9 @@
 <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if project.image %} style="background: url('{{ project.image }}') center/cover;" {% endif %}></header>
+  <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if project.image %} style="background: url('{{ site.url }}/img/{{ project.image }}') center/cover;" {% endif %}></header>
   <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
     <div class="mdl-card__supporting-text">
       <span>{{ project.date | date: "%b %-d, %Y" }}</span>
-      <h4>{{ project.title }}</h4>
+      <h3>{{ project.title }}</h3>
       <p>{{ project.excerpt }}</p>
     </div>
     <div class="mdl-card__actions">
