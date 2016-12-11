@@ -8,5 +8,9 @@
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    margin: 8px 32px 8px 0px;
+    margin: 0px;
+}
+
+.mdl-navigation__link--first {
+    padding-left: 0px !important;
 }

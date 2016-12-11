@@ -1,7 +1,12 @@
 ---
-layout: project-index
-title: All Projects
-excerpt: "Project list"
-image:
-  feature: bg-41.jpg
+layout: default
 ---
+<div class="page-content">
+  <div class="mdl-grid">
+
+    {% for project in site.projects %}
+      {% include project.html %}
+    {% endfor %}
+
+  </div>
+</div>

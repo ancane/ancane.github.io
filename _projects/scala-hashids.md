@@ -1,16 +1,15 @@
 ---
 layout: page
 title: Hashids for scala
-excerpt: "Scala hashids port"
 comments: true
 tags: [scala, hashids]
-image:
-  feature: blur4.jpg
+image: /img/blur4.jpg
+
 ---
 
-# hashids.scala
+A Scala port of [hashids.js](https://github.com/ivanakimov/hashids.js) library to generate short hashes from one or many numbers. Ported from [hashids.java by fanweixiao](https://github.com/jiecao-fm/hashids-java).
+Besides the goals of the original library, this scala port is written without mutable state.
 
-A Scala port of [hashids.js](https://github.com/ivanakimov/hashids.js) library to generate short hashes from one or many numbers. Ported from [hashids.java by fanweixiao](https://github.com/jiecao-fm/hashids-java)
 
 * Hashid is initialized with an `alphabet`, `salt` and a `minimum hash length`
 * It's possible to hash single and multiple long numbers

@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Markdown preview mode
-excerpt: "Browser preview for markdown-mode.el"
 comments: true
 tags: [markdown, emacs, preview]
-image:
-  feature: blur2.jpg
+image: /img/blur2.jpg
+
 ---
 
-## Description
 Opens a preview in a browser, updated upon buffer save.
 Same preview window is valid across multiple markdown buffers.
 Scrolls browser window to keep your editing position visible.

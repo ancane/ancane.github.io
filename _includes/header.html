@@ -1,7 +1,9 @@
 <header class="mdl-layout__header">
 
   <div class="mdl-layout__header-row mdl-layout__header-row--main">
-    <img src="http://ishym.co/images/avatar.jpg" class="header-img" alt="igors blog image">
+    <a class="mdl-navigation__link--first mdl-navigation__link" href="/">
+      <img src="http://ishym.co/images/avatar.jpg" class="header-img" alt="igors blog image">
+    </a>
     <!-- Title -->
     <span class="mdl-layout-title">{{ site.title }}</span>
     <!-- Add spacer, to align navigation to the right -->
@@ -13,11 +15,12 @@
       <i class="material-icons">chevron_left</i>
     </div>
     <div class="mdl-layout__tab-bar mdl-color--primary-dark">
-      <a href="/posts/" class="mdl-layout__tab is-active">Posts</a>
-      <a href="/projects/" class="mdl-layout__tab">Projects</a>
-      <a href="/about" class="mdl-layout__tab">About</a>
+      <a href="/posts" class="mdl-layout__tab is-active">Posts</a>
+      <a href="/projects" class="mdl-layout__tab">Projects</a>
+      <a href="/about" class="mdl-layout__tab">Bio</a>
     </div>
-    <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button mdl-color--primary-dark"><i class="material-icons">chevron_right</i>
+    <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button mdl-color--primary-dark">
+      <i class="material-icons">chevron_right</i>
     </div>
   </div>
 

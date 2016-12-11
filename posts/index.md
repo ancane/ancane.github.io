@@ -1,7 +1,12 @@
 ---
-layout: post-index
-title: All Posts
-excerpt: "A List of Posts"
-image:
-  feature: blur3.jpg
+layout: default
 ---
+<div class="page-content">
+  <div class="mdl-grid">
+
+    {% for post in site.posts %}
+      {% include post_high.html %}
+    {% endfor %}
+
+  </div>
+</div>

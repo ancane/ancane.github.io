@@ -1,15 +1,16 @@
 ---
 layout: page
 title: HALdr
-excerpt: "HAL resource representations builder for spray-json"
 comments: true
 tags: [HAL, spray, json]
 fork:
   href: https://github.com/ancane/haldr
-image:
-  feature: blur1.jpg
+image: /img/avatar.jpg
 ---
-
+		
+HAL resource representations builder for spray-json
+HAL resource representations builder for spray-json
+HAL resource representations builder for spray-json
 HAL resource representations builder for spray-json
 
 ## Usage ##

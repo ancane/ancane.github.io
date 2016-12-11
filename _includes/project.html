@@ -1,0 +1,23 @@
+<div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if project.image %} style="background: url('{{ project.image }}') center/cover;" {% endif %}></header>
+  <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <div class="mdl-card__supporting-text">
+      <span>{{ project.date | date: "%b %-d, %Y" }}</span>
+      <h4>{{ project.title }}</h4>
+      <p>{{ project.excerpt }}</p>
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ project.url | prepend: site.baseurl }}">Read More</a>
+    </div>
+  </div>
+
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ project.id }}">
+    <i class="material-icons">more_vert</i>
+  </button>
+  <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ project.id }}">
+    <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ project.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
+    <li><a href="https://twitter.com/share?url={{ project.url | prepend: site.baseurl }}&text={{ project.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
+    <li><a href="https://plus.google.com/share?url={{ project.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
+  </ul>
+
+</div>
