@@ -3,7 +3,7 @@ layout: page
 title: Markdown preview in emacs
 comments: true
 tags: [markdown, emacs, preview]
-image: md-mode-thumb.jpg
+image: md-preview.jpg
 
 ---
 

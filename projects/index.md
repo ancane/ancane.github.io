@@ -1,5 +1,6 @@
 ---
 layout: default
+active: projects
 ---
 <div class="page-content">
   <div class="mdl-grid">

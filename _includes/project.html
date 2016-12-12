@@ -1,5 +1,5 @@
 <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if project.image %} style="background: url('{{ site.url }}/img/{{ project.image }}') center/cover;" {% endif %}></header>
+  <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if project.image %} style="background: url('{{ site.url }}/img/{{ project.image }}') center/contain;" {% endif %}></header>
   <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
     <div class="mdl-card__supporting-text">
       <span>{{ project.date | date: "%b %-d, %Y" }}</span>
@@ -7,11 +7,11 @@
       <p>{{ project.excerpt }}</p>
     </div>
     <div class="mdl-card__actions">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ project.url | prepend: site.baseurl }}">Read More</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" href="{{ project.url | prepend: site.baseurl }}">Read More</a>
     </div>
   </div>
 
-  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ project.id }}">
+  <button class="mdl-button--accent mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ project.id }}">
     <i class="material-icons">more_vert</i>
   </button>
   <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ project.id }}">

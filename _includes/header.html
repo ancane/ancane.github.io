@@ -10,18 +10,12 @@
     <div class="mdl-layout-spacer"></div>
   </div>
 
-  <div class="mdl-layout__tab-bar-container">
-    <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-left-button mdl-color--primary-dark">
-      <i class="material-icons">chevron_left</i>
-    </div>
-    <div class="mdl-layout__tab-bar mdl-color--primary-dark">
-      <a href="/posts" class="mdl-layout__tab is-active">Posts</a>
-      <a href="/projects" class="mdl-layout__tab">Projects</a>
-      <a href="/about" class="mdl-layout__tab">Bio</a>
-    </div>
-    <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button mdl-color--primary-dark">
-      <i class="material-icons">chevron_right</i>
-    </div>
+  <div class="mdl-layout__header-row mdl-color--primary-dark">
+    <nav class="main-navigation mdl-navigation">
+      <a href="/posts" class="mdl-navigation__link {% if page.active == "posts" %} active {% endif %}">Posts</a>
+      <a href="/projects" class="mdl-navigation__link {% if page.active == "projects" %} active {% endif %}">Projects</a>
+      <a href="/about" class="mdl-navigation__link {% if page.active == "about" %} active {% endif %}">Bio</a>
+    </nav>
   </div>
 
 </header>

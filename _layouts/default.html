@@ -6,10 +6,11 @@
   <body>
 
     <!-- Start Layout -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout">
       {% include header.html %}
 
       {{ content }}
+
       {% include footer.html %}
 
     </div>
@@ -17,9 +18,9 @@
 
     <!-- Material Design Lite js Library -->
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    {% if site.pagination_type == 'ops' %}
-    <script rel="javascript" type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
-    {% endif %}
+    <!-- {% if site.pagination_type == 'ops' %}
+	 <script rel="javascript" type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+	 {% endif %} -->
   </body>
 
 </html>

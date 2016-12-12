@@ -1,5 +1,6 @@
 ---
 layout: default
+active: posts
 ---
 <div class="page-content">
   <div class="mdl-grid">
