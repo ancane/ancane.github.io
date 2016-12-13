@@ -1,8 +1,7 @@
 ---
-layout: page
-title: Markdown preview in emacs
-comments: true
-tags: [markdown, emacs, preview]
+layout: project
+title: Emacs markdown-preview-mode
+tags: [emacs, markdown, preview]
 image: md-preview.jpg
 
 ---

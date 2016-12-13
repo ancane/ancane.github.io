@@ -12,8 +12,8 @@
 
   <div class="mdl-layout__header-row mdl-color--primary-dark">
     <nav class="main-navigation mdl-navigation">
-      <a href="/posts" class="mdl-navigation__link {% if page.active == "posts" %} active {% endif %}">Posts</a>
-      <a href="/projects" class="mdl-navigation__link {% if page.active == "projects" %} active {% endif %}">Projects</a>
+      <a href="/posts" class="mdl-navigation__link {% if page.active == "posts" or layout.active == "posts" %} active {% endif %}">Posts</a>
+      <a href="/projects" class="mdl-navigation__link {% if page.active == "projects" or layout.active == "projects" %} active {% endif %}">Projects</a>
       <a href="/about" class="mdl-navigation__link {% if page.active == "about" %} active {% endif %}">Bio</a>
     </nav>
   </div>

@@ -33,8 +33,11 @@ disqus_shortname: 'ishymco'
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
-highlighter: rogue
+kramdown:
+  auto_ids: true
+  syntax_highlighter: rouge
 
 collections:
 - projects

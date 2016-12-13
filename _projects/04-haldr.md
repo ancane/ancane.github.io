@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: project
 title: HALdr
-comments: true
 tags: [HAL, spray, json]
 image: avatar.jpg
 
