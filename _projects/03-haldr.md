@@ -7,9 +7,6 @@ image: avatar.jpg
 ---
 		
 HAL resource representations builder for spray-json
-HAL resource representations builder for spray-json
-HAL resource representations builder for spray-json
-HAL resource representations builder for spray-json
 
 ## Usage ##
 
