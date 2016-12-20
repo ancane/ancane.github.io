@@ -1,17 +1,9 @@
-# Compiled
-*.elc
-
-# Packaging
-.cask
-
 _site
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
 .sass-cache
-
-# Emacs
-*~
-*#
-.#*
-.ensime
-.ensime_cache
-TAGS
-.dir-locals.el
+*.gem
