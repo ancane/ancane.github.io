@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 active: about
 title: About
 tags: [about, ancane, Igor, Shymko]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 active: projects
 ---
 <div class="page-content">

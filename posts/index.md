@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 active: posts
 ---
 <div class="page-content">
