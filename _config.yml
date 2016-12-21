@@ -19,7 +19,7 @@ url: //ishym.co
 # See the example
 menu:
   - title: 'POSTS'
-    url: '/posts/'
+    url: '/posts'
   - title: 'PROJECTS'
     url: '/projects'
   - title: 'BIO'
@@ -102,3 +102,10 @@ include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme
+
+collections:
+- projects
+
+collections:
+  projects:
+    output: true

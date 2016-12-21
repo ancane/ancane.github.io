@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: popup-imenu
 tags: [emacs, popup, imenu]
 image: popup-imenu.jpg

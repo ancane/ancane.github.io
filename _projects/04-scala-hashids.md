@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Hashids for scala
 tags: [scala, hashids]
 image: blur4.jpg

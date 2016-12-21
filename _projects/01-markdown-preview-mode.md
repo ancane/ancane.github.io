@@ -1,9 +1,8 @@
 ---
-layout: project
+layout: post
 title: Emacs markdown-preview-mode
 tags: [emacs, markdown, preview]
 image: md-preview.jpg
-
 ---
 
 I had to write lots of API documentation in markdown once. Existed viewers were either lacking features or additional prerequisites setup was required, where I wanted a simple command to start working, considering multiple working places. So I started on `markdown-preview-mode`.
