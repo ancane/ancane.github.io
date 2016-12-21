@@ -18,24 +18,24 @@ url: //ishym.co
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
+  - title: 'POSTS'
+    url: '/posts/'
+  - title: 'PROJECTS'
+    url: '/projects'
+  - title: 'BIO'
+    url: '/about'
+  - title: 'TAGS'
     url: '/tags'
-  - title: 'Categories'
+  - title: 'CATEGORIES'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+  # - title: 'Favorites'
+  #   url: '#'
+  #   submenu:
+  #     - title: 'Code Highlighter'
+  #       url: '/intro/code-highlighting-post/'
+  #     - title: 'Sample Post'
+  #       url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
@@ -57,8 +57,8 @@ twitter:
 social:
   - title: "github"
     url: "https://github.com/ancane"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
+  # - title: "linkedin"
+  #   url: "https://br.linkedin.com/in/aronbordin"
 
 # Background image to be tiled on all pages
 background:

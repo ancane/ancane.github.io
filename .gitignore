@@ -7,3 +7,14 @@ node_modules
 Gemfile.lock
 .sass-cache
 *.gem
+
+# Emacs
+*.elc
+.cask
+*~
+*#
+.#*
+.ensime
+.ensime_cache
+TAGS
+.dir-locals.el

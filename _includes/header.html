@@ -43,7 +43,7 @@
             {% endif %}
         {% endif %}
       {% endfor %}
-      <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
+		<!-- <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li> -->
     </ul>
   </div>
 <div class="entry-header">
@@ -55,18 +55,19 @@
       {% else %}
         <h2><span class="entry-date"><time>&nbsp;</time></span></h2>
       {% endif %}
-
+<!--
       {% if site.reading_time and page.layout == 'post' %}
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           {% assign readtime = content | strip_html | number_of_words | divided_by:site.words_per_minute %}
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-        </p><!-- /.entry-reading-time -->
+        </p>
       {% else %}
           <p class="entry-reading-time">
             &nbsp;
-          </p><!-- /.entry-reading-time -->
+          </p>
       {% endif %}
+-->
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
@@ -99,6 +100,6 @@
   </ul>
 </nav>
 
-{% if site.owner.twitter %}
-  <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
-{% endif %}
+<!-- {% if site.owner.twitter %}
+     <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
+     {% endif %} -->
