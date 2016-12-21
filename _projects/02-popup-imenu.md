@@ -2,14 +2,15 @@
 layout: post
 title: popup-imenu
 tags: [emacs, popup, imenu]
-image: popup-imenu.jpg
-
+image: /images/popup-imenu.jpg
 ---
 
 I came across [popup-switcher](https://github.com/kostafey/popup-switcher) couple years back, loved using interfaces based on [popup.el](https://github.com/auto-complete/popup-el) since then.
 Idea of presenting file outline for scala-mode came naturally and that's how `scala-outline-popup` was created, which then transformed into more general imenu list viewer - [popup-imenu](https://github.com/ancane/popup-imenu). Thing I like the most is that it opens at point, so I don't move my lazy eyes much.
 
-![popup-imenu gif](/img/popup-imenu.gif)
+<!--more-->
+
+![popup-imenu gif](/images/popup-imenu.gif)
 
 ## Run
 `M-x popup-imenu`

@@ -15,6 +15,8 @@ I had to write lots of API documentation in markdown once. Existed viewers were 
 * remote preview
 * multiple simultaneous previews
 
+<!--more-->
+
 ## Install
 
 * `package-install markdown-preview-mode`

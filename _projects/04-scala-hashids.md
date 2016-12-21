@@ -17,6 +17,8 @@ A Scala port of [hashids.js](https://github.com/ivanakimov/hashids.js) library t
 * The primary purpose of hashids is to obfuscate ids
 * Do **not** use hashids for security purposes or compression
 
+<!--more-->
+
 # The goal of the port
 
 Besides the goals of the original library, this scala port is written without mutable state.

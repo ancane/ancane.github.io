@@ -146,7 +146,18 @@ figure.center img{
     color: $info;
   }
 }
-
+.btn-read-more {
+  background-color: $read-more;
+  color: $white;
+  border-color: $read-more;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    color: $read-more;
+  }
+}
 // Well
 // --------------------------------------------------
 .well {

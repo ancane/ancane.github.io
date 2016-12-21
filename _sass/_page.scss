@@ -266,8 +266,10 @@ header .entry-meta {
 	}
 }
 .author-img {
-	width: 150px;
-	height: 150px;
+	width: 125px;
+	height: 125px;
+	min-width: 125px;
+	min-height: 125px;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;

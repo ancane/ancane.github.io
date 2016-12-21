@@ -8,6 +8,8 @@ image: avatar.jpg
 		
 HAL resource representations builder for spray-json
 
+<!--more-->
+
 ## Usage ##
 
 Cross-built for Scala 2.10 and 2.11
