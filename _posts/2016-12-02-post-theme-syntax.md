@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post syntax
+title: Jekyll syntax
 description: "Theme styles: headings, paragraphs, blockquotes, tables, code blocks, etc."
 modified: 2016-12-02
 tags: [jekyll theme]
